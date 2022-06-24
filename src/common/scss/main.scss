@@ -1,0 +1,15 @@
+@import 'fonts.scss';
+
+@import 'mixins.scss';
+
+@import 'vars.scss';
+
+@import 'layout.scss';
+
+@import './slick.scss';
+
+// LIBS
+@import '../libs/bootstrap/scss/bootstrap.scss';
+
+// components
+@import '../../components/components.scss';

@@ -1,0 +1,16 @@
+
+
+extends ../../templates/index
+
+include ../../components/modal/modal.pug
+
+block variables
+    - var title = 'Yandex Form'
+    - var meta1 = ''
+    - var meta2 = ''
+    - var pageClass = ''
+
+block content
+  button.ya-open-button Open Yandex form modal
+  +modal-info()
+
